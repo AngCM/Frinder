@@ -1,28 +1,18 @@
-# Frinder
+# Firebase Codelab: FriendlyChat
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This is the source code for the Firebase FriendlyChat codelab. It includes start and end versions of the
+code for Web, Android, Objective-C, Swift and Cloud Functions. To get started open the codelab instructions:
 
-## Development server
+ - [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/).
+ - [Firebase SDK for Cloud Functions Codelab](https://codelabs.developers.google.com/codelabs/firebase-cloud-functions/).
+ - [Firebase Android Codelab](https://codelabs.developers.google.com/codelabs/firebase-android/).
+ - [Firebase Swift Codelab](https://codelabs.developers.google.com/codelabs/firebase-ios-swift/).
+ - [Firebase Objective-C Codelab](https://codelabs.developers.google.com/codelabs/firebase-ios-objc/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## How to make contributions?
+Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## License
+See [LICENSE](LICENSE)
