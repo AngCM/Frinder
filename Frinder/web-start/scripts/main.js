@@ -177,7 +177,7 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
     // Get profile pic and user's name from the Firebase user object.
     var profilePicUrl = user.photoURL;
     var userName = user.displayName;
-
+      
     // Set the user's profile pic and name.
     this.userPic.style.backgroundImage = 'url(' + (profilePicUrl || '/images/profile_placeholder.png') + ')';
     this.userName.textContent = userName;
@@ -203,6 +203,8 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
 
     // Show sign-in button.
     this.signInButton.removeAttribute('hidden');
+      
+    
   }
 };
 
